@@ -22,13 +22,16 @@ export class DatePickerComponent implements ControlValueAccessor{
     }
   }
   writeValue(obj: any): void {
+    console.log("hello");
     
   }
   registerOnChange(fn: any): void {  
+    console.log("hello");
    
   }
   registerOnTouched(fn: any): void {
    
+   console.log("hello");
   }
 
   get control() : FormControl{
